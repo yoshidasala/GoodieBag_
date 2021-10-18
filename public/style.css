@@ -1,0 +1,111 @@
+/*
+ * Hi! I'm your stylesheet! I've got some sensible defaults here,
+ * but feel free to change me to your heart's content!
+ */
+
+* {
+  box-sizing: border-box;
+}
+
+body::after {
+  content: "";
+  background-color: #faf9f6;
+
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+.welcome {
+  color: skyblue;
+
+  font-family: "Istok Web", sans-serif;
+}
+
+nav {
+  align-items: center;
+
+  background-color: #f5d2cf;
+  flex-wrap: wrap;
+  color: white;
+  display: flex;
+  height: 100px;
+  padding: 10px;
+  border-radius: 25px;
+  flex: 2 1 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Work Sans", sans-serif;
+}
+.candyjar {
+  width: 300px;
+}
+
+.candybutton {
+  background-color: #faf9f6;
+  border-radius: 25px;
+  border: whitesmoke;
+  padding: 10px;
+  font-family: "Istok Web", sans-serif;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  color: skyblue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f5d2cf;
+  text-decoration: none;
+}
+.image {
+  width: 100px;
+  align-items: center;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.candy {
+  align-items: center;
+  padding: 15px;
+}
+
+.candylist {
+  font-family: "Istok Web", sans-serif;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.singlecandy {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  font-family: "Istok Web", sans-serif;
+  color: black;
+}
+
+.candycontainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  margin-top: 50px;
+
+  background-color: blanchedalmond;
+  border-radius: 25px;
+}
